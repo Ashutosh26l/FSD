@@ -12,14 +12,87 @@
 
 
 // var name;
-//name = "John";
+// //name = "John";
 
-// const products=["my products",120,true];
-// products.push("new product");
-// console.log(products);
-const products=[1,2,3,4,5,6,7,8,9,10];
+// // const products=["my products",120,true];
+// // products.push("new product");
+// // console.log(products);
+// const products=[1,2,3,4,5,6,7,8,9,10];
 
-let data=products.find(function(item){
-    return item>5;
-})
-console.log(data);
+// let data=products.find(function(item){
+//     return item>5;
+// })
+// console.log(data);
+
+// const myObject = [{
+//     name: "Example Object",
+//     values: [10, 20, 30, 40, 50]
+//   }];
+
+// let car = {
+//   model: "Golf",
+//   make: "Volkswagen",
+//   year: 1999,
+//   color: "black",
+//  };
+//  for (let prop in car){
+//   console.log(car[prop]);
+//  }
+
+//  let names = ["Chantal", "John", "Maxime", "Bobbi", "Jair"];
+//  for (let name of names){
+//  console.log(name);
+//  }
+
+
+// let cars = [
+//   {
+//     model: "Golf",
+//     make: "Volkswagen",
+//     year: 1999,
+//     color: "black",
+//   },
+//   {
+//     model: "Picanto",
+//     make: "Kia",
+//     year: 2020,
+//     color: "red",
+//   },
+//   {
+//     model: "Peugeot",
+//     make: "208",
+//     year: 2021,
+//     color: "black",
+//   },
+//   {
+//     model: "Fiat",
+//     make: "Punto",
+//     year: 2020,
+//     color: "black",
+//   }
+//  ];
+//  for (let car of cars){
+//   if(car.color !== "black"){
+//     continue;
+//   }
+//   if (car.year >= 2020) {
+//     console.log("we could get this one:", car);
+//   }
+//  }
+// let step = 3;
+//  for (let i = 0; i < 1000; i += step) {
+//  if (i > 10) {
+//  break;
+//     }
+//  console.log(i);
+//  }
+
+// 
+
+
+//FUNCTION
+
+function myName(){
+  console.log("hello");
+}
+myName();
