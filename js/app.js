@@ -92,7 +92,38 @@
 
 //FUNCTION
 
-function myName(){
-  console.log("hello");
-}
-myName();
+// function myName(){
+//   console.log("hello");
+// }
+// myName();
+
+// function addTwoNumbers(x, y) {
+//   console.log(x + y); 
+// } 
+// let arr = [5, 9];
+//  addTwoNumbers(...arr);
+
+
+//var is a fuction scope(except function var creates global variable)
+//let and const is block scope
+// function  abc2(){
+//   var age7 = 20;
+//   let age8=30;
+//   const age9=40;
+//   console.log(age7,age8,age9);
+// }
+// abc2();
+// console.log(age7);
+// console.log(age8);
+// console.log(age9);
+
+// if(true){
+//   var age7 = 20;
+//   let age8=30;
+//   const age9=40;
+//   console.log(age7,age8,age9);(((((HERE LET AND CONST ARE LOCAL VARIABLE)))))
+// }
+// console.log(age7);
+// console.log(age8);
+// console.log(age9);
+
