@@ -127,3 +127,8 @@
 // console.log(age8);
 // console.log(age9);
 
+//DOM Manipulation
+const element=document.getElementById("h1");
+
+element.textContent="hello world";
+console.log(element);
