@@ -128,7 +128,10 @@
 // console.log(age9);
 
 //DOM Manipulation
-const element=document.getElementById("h1");
+// const element=document.getElementsByClassName("h1");
 
-element.textContent="hello world";
+// element.textContent="hello world";
+// console.log(element);
+
+const element=document.querySelector("h1");
 console.log(element);
